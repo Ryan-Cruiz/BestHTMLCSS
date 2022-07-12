@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline:1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(32, 69, 100,.9), rgba(72, 138, 192, 1), rgba(32, 69, 100,.9));
+}
+div.container{
+    width: 1200px;
+    min-height: 1000px;
+    margin: 0px auto;
+}
+/* HEAD */
+header{
+   width: 100%;
+}
+    header div.login-container{
+        display: inline-block;
+        position: relative;
+        left: 430px;
+        bottom: 25px;
+    }
+    header img{
+        margin: 10px 0px 0px 40px;
+    }
+    header form{
+        display: inline-block;
+        padding: 10px;
+        background-color:rgb(45, 52, 54,4);
+    }
+    header form, header nav,#donate,form button{
+        border-radius: 5px;
+    }
+    header button,header nav{
+        background-color: rgb(72, 126, 176);
+        border: 1px dotted black;
+    }
+    header button,header input,header form a,nav a,#donate{
+        border: none;
+        padding: 5px;
+        color:rgb(220, 221, 225,.7);
+        text-decoration: none;
+    }
+    #donate{
+       background-color: rgb(251, 197, 49);
+       padding:5px;
+       text-decoration: none; 
+       color:black;
+    }
+    header nav{
+        width:1100px;
+        height: 50px;
+        margin: 0px auto;
+    }
+    header nav div{
+        width: 970px;
+        margin: 0px auto;
+        min-height: 50px;
+    }
+    header nav a{
+        border:0px 1px 0px 1px;
+        border-style:solid pink;
+        padding:15px 25px 15px 35px;
+        margin:15px auto;
+        position: relative;
+        top: 16px;
+        border-left:1px solid gray;
+    }
+main section.design-container div{
+   display: inline-block;
+    position: relative;
+    right: 480px;
+    height: 275px;
+    bottom: 72px;
+}
+main section.design-container{
+    height: 300px;
+}
+    main section.design-container h1{
+        color: rgb(255, 242, 0);
+        width: 316px;
+        height: 228px;
+    }
+    section.design-container img{
+        position: relative;
+        left: 500px;
+        top:1px;
+    }
+    section.design-container p{
+        color: white;
+        width: 375px;
+        font-size: medium;
+    }
+
+/* MAIN ARTICLE */
+main article{
+    background-color: white;
+}
+main article section.info-container{
+    display: inline-block;
+    width: 560px;
+    background-color: whitesmoke;
+    margin:30px 5px 5px 30px;
+    vertical-align: top;
+    border-top:5px solid rgb(97, 182, 211);
+}
+    section ul li,section h3,section h5,section ul,section p,section a,footer ul li,footer ul li a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    section h5,section p,section h3{
+        padding:5px;
+    }
+        div.table-content div,div.table-header{
+            padding: 10px;
+            border-bottom:1px solid gray;
+        }
+        #language-corner a{
+            color: black;
+            background-color: lightgray;
+            padding: 5px;
+        }
+        div.table-header a{
+            color:gray;
+            font-size: 15px;
+            position: relative;
+            left: 345px;
+            justify-self: end;
+            vertical-align: bottom;
+        }
+            #bMore-btn{
+                left:310px;
+            }
+            div.table-content a{
+                color:blue;
+            }
+        article section div a,section div p{
+            font-size: 14px;
+        }
+/* FOOTER */
+    footer{
+        width: 900px;
+        margin: 30px auto;
+       
+    }
+    footer a, footer li{
+        color:lightgray;
+    }
+    footer a,footer ul#help-container li{
+        font-size: large;
+        padding: 10px;
+    }
+    footer ul{
+        width: 800px;
+        margin:0px auto;
+    }
+    #license-container li{
+     position:relative;
+     left: 90px;
+    }
+    #license-container a, #license-container li{
+        font-size: small;
+    }
+        #license-container li a{
+            border-bottom:1px dotted rgb(78, 77, 77);
+            padding:0px
+        }
